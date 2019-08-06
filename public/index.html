@@ -15,6 +15,11 @@
         <!-- <h2>Total world population: {{ worldPopulation }}</h2> -->
         <!-- <button v-on:click="fetchName">Show me the country name!</button> -->
         <p>{{ totalWorldPopulation }}</p>
+          <select v-model="selected">
+          <option v-for="country in countries" v-bind:value="country.name">
+        {{ country.name }}
+        </option>
+        <span>Selected: {{ selected }}</span>
       </header>
 
     </div>
