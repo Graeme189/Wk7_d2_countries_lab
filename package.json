@@ -1,0 +1,19 @@
+{
+  "name": "countries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "devDependencies": {},
+
+  "author": "",
+  "license": "ISC"
+}
