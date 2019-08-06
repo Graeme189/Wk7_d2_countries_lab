@@ -13,7 +13,6 @@
     "webpack-cli": "^3.3.6"
   },
   "devDependencies": {},
-
   "author": "",
   "license": "ISC"
 }
